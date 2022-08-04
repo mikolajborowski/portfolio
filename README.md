@@ -18,4 +18,4 @@ This is my portfolio website's code. It was written mainly in Vue.js. Feel free 
 * npm run dev
 
 ## :ship: Docker deploy
-run -p 8888:80 mikolajborowski/portfolio
+docker run -p 8888:80 mikolajborowski/portfolio
