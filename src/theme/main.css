@@ -1,0 +1,66 @@
+/*Fonts import*/
+@font-face {
+    font-family: Pacifico;
+    src: url('../assets/fonts/Pacifico.ttf');
+}
+
+@font-face {
+    font-family: Sora;
+    src: url('../assets/fonts/Sora.ttf');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Ms Madi';
+    src: url('../assets/fonts/MsMadi.ttf');
+}
+
+/*Global properties and variables*/
+:root {
+    --background-color: #eaebed;
+    --background-color-light: #dad7d7;
+    --first-color: #6e5dcf;
+    --second-color: #6e5dcf;
+    --font-color: #243b67;
+    scroll-behavior: smooth;
+    background-color: var(--background-color);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: large;
+    color: var(--font-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--font-color);
+    cursor: pointer;
+    transition: color 0.5s;
+}
+
+a:hover {
+    color: var(--first-color);
+}
+
+button {
+    color: white;
+}
+
+textarea, input, button, a, code {
+    font-size: large;
+}
+
+h1, h2, h3 {
+    font-family: 'Sora', sans-serif;
+}
+
+h1 {
+    font-size: xxx-large;
+}
+
+h2, h3 {
+    font-size: x-large;
+}
