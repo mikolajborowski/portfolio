@@ -1,6 +1,6 @@
 <script setup>
-import BaseSectionComponent from '../utils/BaseSectionComponent.vue'</script>
-
+import BaseSectionComponent from '../utils/BaseSectionComponent.vue'
+</script>
 <template>
   <BaseSectionComponent
       heading="About me"

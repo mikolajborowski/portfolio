@@ -41,8 +41,6 @@ import 'animate.css';
 import MainView from './views/MainView.vue';
 import NotFoundView from './views/NotFoundView.vue';
 import ProjectView from './views/ProjectView.vue';
-import ElementPlus from 'element-plus'
-import 'element-plus/dist/index.css'
 
 library.add({
     faDocker,
@@ -94,7 +92,6 @@ const router = createRouter({
 const app = createApp(App);
 app.config.globalProperties.window = window;
 app.use(router);
-app.use(ElementPlus);
 app.component("font-awesome-icon", FontAwesomeIcon);
 app.mount('#app');
 

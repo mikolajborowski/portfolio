@@ -1,6 +1,10 @@
 <script setup>
 import BaseSectionComponent from '../utils/BaseSectionComponent.vue'
-import BaseButtonComponent from '../utils/BaseButtonComponent.vue'</script>
+import BaseButtonComponent from '../utils/BaseButtonComponent.vue'
+import {useCssVarFromWindowContext} from '../utils/composables/css'
+
+const {variable} = useCssVarFromWindowContext('--primary-color')
+</script>
 <template>
   <BaseSectionComponent
       heading="My projects"
@@ -19,7 +23,7 @@ import BaseButtonComponent from '../utils/BaseButtonComponent.vue'</script>
         </p>
         <router-link to="/project">
           <BaseButtonComponent
-              backgroundColor="#0da574"
+              :backgroundColor="variable"
           >
             <font-awesome-icon :icon="['fab', 'readme']"/>
             Read more

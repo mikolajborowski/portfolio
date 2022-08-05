@@ -11,6 +11,7 @@ This is my portfolio website's code. It was written mainly in Vue.js. Feel free 
 |*[Github pages](https://pages.github.com/)* | Websites for you and your projects. |
 |*[Animate.css](https://animate.style/)* | Animate.css is a library of ready-to-use, cross-browser animations for use in your web projects. Great for emphasis, home pages, sliders, and attention-guiding hints. |
 |*[Vite](https://vitejs.dev/)* | Next Generation Frontend Tooling. |
+|*[VueUse](https://vueuse.org/)* | Collection of Vue Composition Utilities. |
 
 ## :computer: Local deploy NPM
 * Clone this repo

@@ -1,6 +1,9 @@
 <script setup>
 import BaseSectionComponent from '../utils/BaseSectionComponent.vue'
 import BaseButtonComponent from '../utils/BaseButtonComponent.vue'
+import {useCssVarFromWindowContext} from '../utils/composables/css'
+
+const {variable} = useCssVarFromWindowContext('--primary-color')
 </script>
 <template>
   <BaseSectionComponent
@@ -29,7 +32,7 @@ import BaseButtonComponent from '../utils/BaseButtonComponent.vue'
       </p>
       <textarea maxlength='10000' name="message" placeholder="Message..." required></textarea>
       <BaseButtonComponent
-          backgroundColor="#0da574"
+          :backgroundColor="variable"
       >
         <font-awesome-icon icon="paper-plane"/>
         Send
