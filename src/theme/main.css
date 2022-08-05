@@ -17,11 +17,11 @@
 
 /*Global properties and variables*/
 :root {
-    --background-color: #eaebed;
-    --background-color-light: #dad7d7;
-    --first-color: #6e5dcf;
-    --second-color: #6e5dcf;
-    --font-color: #243b67;
+    --background-color: #1d1d1d;
+    --background-color-light: #282828;
+    --primary-color: #0da574;
+    --secondary-color: #ffd717;
+    --font-color: white;
     scroll-behavior: smooth;
     background-color: var(--background-color);
 }
@@ -42,7 +42,7 @@ a {
 }
 
 a:hover {
-    color: var(--first-color);
+    color: var(--primary-color);
 }
 
 button {
@@ -63,4 +63,12 @@ h1 {
 
 h2, h3 {
     font-size: x-large;
+}
+
+h2 {
+    color: var(--secondary-color);
+}
+
+h3 {
+    color: var(--primary-color);
 }

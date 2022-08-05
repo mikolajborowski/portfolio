@@ -21,11 +21,11 @@ button {
   width: 100%;
   margin-bottom: 10px;
   box-sizing: border-box;
-  transition: 0.5s background-color;
+  transition: 0.5s opacity;
 }
 
 button:hover {
   cursor: pointer;
-  background-color: var(--second-color);
+  opacity: 0.5;
 }
 </style>

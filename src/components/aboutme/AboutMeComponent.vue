@@ -47,7 +47,7 @@ import BaseSectionComponent from '../utils/BaseSectionComponent.vue'</script>
           <font-awesome-icon icon="file-circle-check"/>
           About me:
         </h3>
-        <p class="text-justify">
+        <p>
           Well-qualified front-end developer familiar with a wide range of programming utilities and
           languages.
           Knowledgeable of backend development requirements.
@@ -99,10 +99,6 @@ import BaseSectionComponent from '../utils/BaseSectionComponent.vue'</script>
   background-color: var(--background-color);
   border-radius: 10px;
   width: 100%;
-}
-
-p {
-  font-weight: bold;
 }
 
 .tech-section {

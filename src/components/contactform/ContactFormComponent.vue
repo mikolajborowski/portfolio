@@ -1,6 +1,7 @@
 <script setup>
-import BaseSectionComponent from '../utils/BaseSectionComponent.vue'</script>
-
+import BaseSectionComponent from '../utils/BaseSectionComponent.vue'
+import BaseButtonComponent from '../utils/BaseButtonComponent.vue'
+</script>
 <template>
   <BaseSectionComponent
       heading="Contact form"
@@ -27,30 +28,17 @@ import BaseSectionComponent from '../utils/BaseSectionComponent.vue'</script>
         Your message:
       </p>
       <textarea maxlength='10000' name="message" placeholder="Message..." required></textarea>
-      <button type="submit">
+      <BaseButtonComponent
+          backgroundColor="#0da574"
+      >
         <font-awesome-icon icon="paper-plane"/>
         Send
-      </button>
+      </BaseButtonComponent>
     </form>
   </BaseSectionComponent>
 </template>
 
 <style scoped>
-button {
-  width: 100%;
-  padding: 10px;
-  border-radius: 10px;
-  background-color: var(--first-color);
-  transition: background-color 0.5s;
-  border: none;
-  margin-top: 40px;
-}
-
-button:hover {
-  background-color: var(--second-color);
-  cursor: pointer;
-}
-
 textarea, input {
   width: 100%;
   padding: 10px;
@@ -65,7 +53,7 @@ textarea {
   resize: none;
 }
 
-label {
+label, button {
   margin: 40px 0 20px 0;
 }
 </style>

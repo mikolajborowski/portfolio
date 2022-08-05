@@ -61,7 +61,7 @@ section {
 h3 {
   padding-bottom: 20px;
   margin-bottom: 40px;
-  border-bottom: 3px solid var(--first-color);
+  border-bottom: 3px solid var(--primary-color);
 }
 
 @media only screen and (max-width: 871px) {

@@ -90,7 +90,7 @@ span {
   display: flex;
   flex-direction: column;
   background-color: var(--background-color-light);
-  border: 3px solid var(--first-color);
+  border: 3px solid var(--primary-color);
   border-radius: 10px;
 }
 

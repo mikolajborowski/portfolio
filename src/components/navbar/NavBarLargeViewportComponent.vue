@@ -53,7 +53,7 @@ span {
 
 section:nth-child(2) > span {
   padding-right: 20px;
-  border-right: 3px solid var(--font-color);
+  border-right: 4px solid var(--primary-color);
 }
 
 section:nth-child(2) > span:last-child {

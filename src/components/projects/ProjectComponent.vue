@@ -14,7 +14,7 @@ const project = projects[0];
           <font-awesome-icon icon="code"/>
           Tech used:
         </h3>
-        <p>
+        <p class="text-justify">
           <template v-for="tech in project.tech">
             <font-awesome-icon :icon="['fab', tech.icon]"/>
             {{ tech.name }}&nbsp;
@@ -61,7 +61,7 @@ img {
   width: 100%;
   height: 100%;
   border-radius: 10px;
-  border: 3px solid var(--first-color);
+  border: 3px solid var(--primary-color);
   box-sizing: border-box;
 }
 

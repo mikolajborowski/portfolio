@@ -1,6 +1,6 @@
 <template>
   <header>
-    <article class="animate__animated animate__bounce">
+    <article class="animate__animated animate__fadeIn">
       <section>
         <h1>
           Hello, I'm
@@ -45,7 +45,7 @@ article > section:first-child {
 }
 
 article > section:nth-child(2) {
-  background-image: radial-gradient(var(--second-color) 20%, var(--background-color) 20%);
+  background-image: radial-gradient(var(--primary-color) 20%, var(--background-color) 20%);
   background-position: 0 0;
   background-size: 100px 100px;
 }
@@ -56,20 +56,21 @@ h1 {
 }
 
 .color {
-  color: var(--second-color);
+  color: var(--secondary-color);
 }
 
 h2 {
   margin: 0;
+  color: var(--font-color);
 }
 
 img {
   align-self: center;
   justify-self: right;
+  border: 8px solid var(--secondary-color);
   width: 400px;
   height: 400px;
   border-radius: 50%;
-  filter: drop-shadow(0 0 20px #1d1d1d);
 }
 
 @media only screen and (max-width: 947px) {

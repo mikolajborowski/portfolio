@@ -19,7 +19,7 @@ import BaseButtonComponent from '../utils/BaseButtonComponent.vue'</script>
         </p>
         <router-link to="/project">
           <BaseButtonComponent
-              backgroundColor="#6e5dcf"
+              backgroundColor="#0da574"
           >
             <font-awesome-icon :icon="['fab', 'readme']"/>
             Read more

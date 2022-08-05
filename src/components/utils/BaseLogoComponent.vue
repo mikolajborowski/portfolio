@@ -10,7 +10,7 @@ const router = useRouter()
 </template>
 <style scoped>
 span {
-  color: var(--font-color);
+  color: var(--primary-color);
   font-size: 3rem;
   font-family: 'Ms Madi', cursive;
   margin: 0;
