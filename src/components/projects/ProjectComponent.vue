@@ -77,10 +77,6 @@ section {
   width: 100%;
 }
 
-p {
-  font-size: x-large;
-}
-
 @media only screen and (max-width: 871px) {
   .projectImages > div:nth-child(2) {
     display: none;
